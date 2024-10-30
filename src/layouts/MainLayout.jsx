@@ -19,4 +19,4 @@ const MainLayout = ({ children }) => {
   );
 };
 
-export default MainLayo
+export default MainLayout;
