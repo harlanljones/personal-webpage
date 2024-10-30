@@ -3,33 +3,33 @@ import React from 'react';
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend Development",
+      title: "Machine Learning",
       skills: [
-        { name: "React", level: 90 },
-        { name: "JavaScript", level: 85 },
-        { name: "TypeScript", level: 80 },
-        { name: "HTML/CSS", level: 90 },
-        { name: "Tailwind CSS", level: 85 }
+        { name: "Python", level: 95 },
+        { name: "Natural Language Processing", level: 80 },
+        { name: "Reinforcement Learning", level: 85 },
+        { name: "Feature Engineering", level: 90 },
+        { name: "Deep Learning", level: 85 }
       ]
     },
     {
-      title: "Backend Development",
+      title: "Cloud Computing",
       skills: [
-        { name: "Node.js", level: 85 },
-        { name: "Python", level: 80 },
-        { name: "Express", level: 85 },
-        { name: "MongoDB", level: 80 },
-        { name: "PostgreSQL", level: 75 }
+        { name: "Google Cloud", level: 85 },
+        { name: "AWS", level: 80 },
+        { name: "Cloud Storage", level: 85 },
+        { name: "Terraform", level: 80 },
+        { name: "Docker", level: 70 }
       ]
     },
     {
-      title: "Tools & Technologies",
+      title: "Data Science",
       skills: [
-        { name: "Git", level: 85 },
-        { name: "Docker", level: 75 },
-        { name: "AWS", level: 70 },
-        { name: "Jest", level: 80 },
-        { name: "CI/CD", level: 75 }
+        { name: "Data Wrangling", level: 85 },
+        { name: "Data Visualization", level: 80 },
+        { name: "SQL Databases", level: 70 },
+        { name: "Hypothesis Testing", level: 85 },
+        { name: "Statistical Analysis", level: 80 }
       ]
     }
   ];
