@@ -1,6 +1,5 @@
 import React from 'react';
-import { Mail, Github, Linkedin, Calendar, Phone, MapPin } from 'lucide-react';
-import { Card, CardHeader, CardContent } from '@/components/ui/card';
+import { Mail, Github, Linkedin, Calendar, Phone, MapPin, Users, Code, Briefcase } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -47,28 +46,43 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Schedule Meeting Card */}
-          <Card className="bg-white">
-            <CardHeader>
-              <h3 className="text-xl font-semibold">Schedule a Meeting</h3>
+          {/* Schedule Meeting Section */}
+          <div className="bg-white rounded-lg shadow-lg p-6">
+            <div className="mb-4">
+              <h3 className="text-xl font-semibold mb-2">Schedule a Meeting</h3>
               <p className="text-gray-600">
-                Let's discuss opportunities for collaboration
+                Let's discuss your project or opportunities for collaboration
               </p>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-4">
-                <a
-                  href="https://calendly.com/harlanljones"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-6 py-3 mt-4 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-secondary transition-colors"
-                >
-                  Schedule Meeting
-                  <Calendar className="ml-2 h-5 w-5" />
-                </a>
+            </div>
+            <div className="space-y-4">
+              <p className="text-gray-600">
+                I'm available for:
+              </p>
+              <div className="space-y-3">
+                <div className="flex items-center text-gray-600">
+                  <Users className="h-5 w-5 mr-3 text-primary" />
+                  <span>Project consultations</span>
+                </div>
+                <div className="flex items-center text-gray-600">
+                  <Code className="h-5 w-5 mr-3 text-primary" />
+                  <span>Technical discussions</span>
+                </div>
+                <div className="flex items-center text-gray-600">
+                  <Briefcase className="h-5 w-5 mr-3 text-primary" />
+                  <span>Collaboration opportunities</span>
+                </div>
               </div>
-            </CardContent>
-          </Card>
+              <a
+                href="https://calendly.com/harlanljones"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-6 py-3 mt-4 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-secondary transition-colors"
+              >
+                Schedule Meeting
+                <Calendar className="ml-2 h-5 w-5" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
