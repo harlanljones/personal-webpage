@@ -4,26 +4,26 @@ import { Github, ExternalLink } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "A full-stack e-commerce solution with React and Node.js. Features include user authentication, product management, and payment integration.",
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
+      title: "Jupyter Notebook Collection",
+      description: "A variety of Jupyter Notebooks showcasing my work either for school or personal use. Continually updated.",
+      tags: ["Python", "Machine Learning", "Data Science", "Data Analysis"],
       github: "https://github.com/yourusername/project1",
       demo: "https://project1.demo.com",
       image: "/api/placeholder/600/400"
     },
     {
-      title: "AI Image Generator",
-      description: "An AI-powered image generation tool using OpenAI's API. Users can create unique images from text descriptions.",
-      tags: ["Python", "FastAPI", "React", "OpenAI"],
-      github: "https://github.com/yourusername/project2",
+      title: "Orchestrating AI Applications on the Cloud",
+      description: "A CLI capable of deploying AI applications on the cloud without the hassle of managing infrastructure. To be completed by December 2024.",
+      tags: ["Cloud", "Terraform", "Ansible", "Python"],
+      github: "https://github.com/EC528-Fall-2024/orchestrating-ai-app-cloud",
       demo: "https://project2.demo.com",
       image: "/api/placeholder/600/400"
     },
     {
-      title: "Task Management App",
-      description: "A Kanban-style project management application with real-time updates and team collaboration features.",
-      tags: ["React", "Firebase", "Tailwind", "Redux"],
-      github: "https://github.com/yourusername/project3",
+      title: "Financial News Engine",
+      description: "An open-source financial news aggregator and search engine for my ECE capstone project. To be completed by May 2025.",
+      tags: ["Elasticsearch", "Python", "NLP", "Recommenders"],
+      github: "https://github.com/rohankumar-1/search-engine",
       demo: "https://project3.demo.com",
       image: "/api/placeholder/600/400"
     }
