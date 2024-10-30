@@ -6,10 +6,10 @@ const Skills = () => {
       title: "Machine Learning",
       skills: [
         { name: "Python", level: 95 },
-        { name: "Natural Language Processing", level: 80 },
-        { name: "Reinforcement Learning", level: 85 },
         { name: "Feature Engineering", level: 90 },
-        { name: "Deep Learning", level: 85 }
+        { name: "Deep Learning", level: 85 },
+        { name: "Natural Language Processing", level: 80 },
+        { name: "Reinforcement Learning", level: 85 }
       ]
     },
     {
@@ -26,9 +26,9 @@ const Skills = () => {
       title: "Data Science",
       skills: [
         { name: "Data Wrangling", level: 85 },
-        { name: "Data Visualization", level: 80 },
-        { name: "SQL Databases", level: 70 },
-        { name: "Hypothesis Testing", level: 85 },
+        { name: "Data Visualization", level: 85 },
+        { name: "SQL Databases", level: 75 },
+        { name: "Hypothesis Testing", level: 80 },
         { name: "Statistical Analysis", level: 80 }
       ]
     }
