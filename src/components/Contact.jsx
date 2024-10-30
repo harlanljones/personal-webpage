@@ -12,7 +12,6 @@ const Contact = () => {
             <h3 className="text-2xl font-semibold">Let's Connect</h3>
             <p className="text-gray-600">
               I'm always interested in hearing about new projects and opportunities.
-              Feel free to reach out through any of the channels below.
             </p>
             <div className="space-y-4">
               <div className="flex items-center text-gray-600">
