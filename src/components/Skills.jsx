@@ -17,9 +17,9 @@ const Skills = () => {
       skills: [
         { name: "Data Wrangling", level: "expert" },
         { name: "Data Visualization", level: "expert" },
-        { name: "SQL Databases", level: "intermediate" },
         { name: "Hypothesis Testing", level: "advanced" },
-        { name: "Statistical Analysis", level: "advanced" }
+        { name: "Statistical Analysis", level: "advanced" },
+        { name: "SQL Databases", level: "intermediate" }
       ]
     },
     {
@@ -27,9 +27,9 @@ const Skills = () => {
       skills: [
         { name: "Google Cloud", level: "expert" },
         { name: "AWS", level: "advanced" },
-        { name: "IaaC/Terraform", level: "intermediate" },
         { name: "Serverless", level: "advanced" },
-        { name: "Event-Driven Architecture", level: "advanced" }
+        { name: "Event-Driven Architecture", level: "advanced" },
+        { name: "IaaC/Terraform", level: "intermediate" }
       ]
     }
   ];
