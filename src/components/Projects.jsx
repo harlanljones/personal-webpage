@@ -14,7 +14,7 @@ const Projects = () => {
     {
       title: "Orchestrating AI Applications on the Cloud",
       description: "A CLI capable of deploying AI applications on the cloud without the hassle of managing infrastructure. To be completed by December 2024.",
-      tags: ["Cloud", "Terraform", "Ansible", "Python"],
+      tags: ["Cloud", "Serverless", "Event-Driven", "Google Cloud"],
       github: "https://github.com/EC528-Fall-2024/orchestrating-ai-app-cloud",
       demo: "https://project2.demo.com",
       image: "/api/placeholder/600/400"
@@ -22,7 +22,7 @@ const Projects = () => {
     {
       title: "Financial News Engine",
       description: "An open-source financial news aggregator and search engine for my ECE capstone project. To be completed by May 2025.",
-      tags: ["Elasticsearch", "Python", "NLP", "Recommenders"],
+      tags: ["Python", "Full Stack", "NLP", "Recommenders"],
       github: "https://github.com/rohankumar-1/search-engine",
       demo: "https://project3.demo.com",
       image: "/api/placeholder/600/400"

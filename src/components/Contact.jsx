@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Github, Linkedin, Calendar, Users, Code, Briefcase } from 'lucide-react';
+import { Mail, Github, Linkedin, Calendar, Phone, MapPin, Users, Code, Briefcase } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -45,103 +45,68 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* New Message Form Section */}
+          {/* Leave a Message Section */}
           <div className="bg-white rounded-lg shadow-lg p-6">
-            <h3 className="text-xl font-semibold mb-6">Leave a Message</h3>
-            <form className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary"
-                  />
-                </div>
+            <div className="mb-4">
+              <h3 className="text-xl font-semibold mb-2">Leave a Message</h3>
+              <p className="text-gray-600">
+                Feel free to leave a message and I'll get back to you as soon as possible.
+              </p>
+            </div>
+            <form className="space-y-4">
+              <div>
+                <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
+                <input type="text" id="name" className="mt-1 block w-full border-gray-300 rounded-md shadow-sm" />
               </div>
               <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-gray-700">
-                  Subject
-                </label>
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary"
-                />
+                <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
+                <input type="email" id="email" className="mt-1 block w-full border-gray-300 rounded-md shadow-sm" />
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows={4}
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary"
-                />
+                <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
+                <textarea id="message" rows="4" className="mt-1 block w-full border-gray-300 rounded-md shadow-sm"></textarea>
               </div>
-              <div>
-                <button
-                  type="submit"
-                  className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-secondary transition-colors"
-                >
-                  Send Message
-                  <Mail className="ml-2 h-5 w-5" />
-                </button>
-              </div>
+              <button type="submit" className="inline-flex items-center px-6 py-3 mt-4 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-secondary transition-colors">
+                Send Message
+              </button>
             </form>
           </div>
-        </div>
 
-        {/* Contact Info */}
-        <div className="mt-16 space-y-6">
-          <h3 className="text-2xl font-semibold">Let's Connect</h3>
-          <p className="text-gray-600">
-            I'm always interested in hearing about new projects and opportunities.
-          </p>
-          <div className="space-y-4">
-            <div className="flex items-center text-gray-600">
-              <Mail className="h-5 w-5 mr-3" />
-              <a href="mailto:harlanljones@gmail.com" className="hover:text-primary transition-colors">
-                harlanljones@gmail.com
-              </a>
-            </div>
-            <div className="flex items-center text-gray-600">
-              <MapPin className="h-5 w-5 mr-3" />
-              <span>Boston, MA</span>
-            </div>
-            <div className="flex space-x-4 pt-4">
-              <a
-                href="https://github.com/harlanljones"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-primary transition-colors"
-              >
-                <Github className="h-6 w-6" />
-              </a>
-              <a
-                href="https://linkedin.com/in/yourusername"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-primary transition-colors"
-              >
-                <Linkedin className="h-6 w-6" />
-              </a>
+          {/* Contact Info */}
+          <div className="space-y-6">
+            <h3 className="text-2xl font-semibold">Let's Connect</h3>
+            <p className="text-gray-600">
+              I'm always interested in hearing about new projects and opportunities.
+            </p>
+            <div className="space-y-4">
+              <div className="flex items-center text-gray-600">
+                <Mail className="h-5 w-5 mr-3" />
+                <a href="mailto:harlanljones@gmail.com" className="hover:text-primary transition-colors">
+                  harlanljones@gmail.com
+                </a>
+              </div>
+              <div className="flex items-center text-gray-600">
+                <MapPin className="h-5 w-5 mr-3" />
+                <span>Boston, MA</span>
+              </div>
+              <div className="flex space-x-4 pt-4">
+                <a
+                  href="https://github.com/harlanljones"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-primary transition-colors"
+                >
+                  <Github className="h-6 w-6" />
+                </a>
+                <a
+                  href="https://linkedin.com/in/yourusername"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-primary transition-colors"
+                >
+                  <Linkedin className="h-6 w-6" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
