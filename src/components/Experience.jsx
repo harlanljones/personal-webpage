@@ -7,25 +7,23 @@ const Experience = () => {
       type: 'education',
       title: 'Bachelor of Science, Computer Engineering',
       organization: 'Boston University',
-      duration: '2021 - 2025',
+      duration: 'August 2021 - May 2025',
       location: 'Boston, MA',
       details: [
-        'Concentration in Machine Learning',
-        'Relevant Coursework: Machine Learning, Deep Learning, Cloud Computing, Data Structures',
-        'GPA: X.XX/4.00'
+        'Relevant Coursework: Software Engineering, Machine Learning, Cloud Computing, Deep Learning',
+        'GPA: 3.1/4.0'
       ],
       icon: GraduationCap
     },
     {
       type: 'work',
-      title: '[Your Internship Role]',
-      organization: '[Company Name]',
-      duration: 'Summer 2024',
-      location: '[Location]',
+      title: 'Data Science Intern',
+      organization: 'Waiter.com',
+      duration: 'Summer 2023',
+      location: 'Sunnyvale, CA',
       details: [
-        'Detail about your responsibilities',
-        'Key achievement or project',
-        'Technologies used'
+        'Developed a recommendation system for Waiter.com using machine learning',
+        'Technologies used: Python, TensorFlow, scikit-learn, PyTorch, Matplotlib'
       ],
       icon: Briefcase
     }
