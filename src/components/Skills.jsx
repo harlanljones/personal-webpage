@@ -6,9 +6,9 @@ const Skills = () => {
       title: "Machine Learning",
       skills: [
         { name: "Python", level: "expert" },
-        { name: "Linear Algebra", level: "advanced" },
         { name: "Deep Learning", level: "advanced" },
         { name: "Natural Language Processing", level: "advanced" },
+        { name: "Linear Algebra", level: "advanced" },
         { name: "Reinforcement Learning", level: "advanced" }
       ]
     },
@@ -16,10 +16,10 @@ const Skills = () => {
       title: "Data Science",
       skills: [
         { name: "Data Visualization", level: "expert" },
-        { name: "Data Wrangling", level: "advanced" },
-        { name: "Hypothesis Testing", level: "advanced" },
         { name: "Statistical Analysis", level: "advanced" },
-        { name: "Databases", level: "advanced" }
+        { name: "Hypothesis Testing", level: "advanced" },
+        { name: "Data Wrangling", level: "advanced" },
+        { name: "Databases", level: "intermediate" }
       ]
     },
     {
@@ -28,8 +28,8 @@ const Skills = () => {
         { name: "Google Cloud", level: "advanced" },
         { name: "Docker and Containerization", level: "advanced" },
         { name: "Microservices Architecture", level: "advanced" },
-        { name: "Terraform and IaC", level: "advanced" },
-        { name: "AWS", level: "intermediate" }
+        { name: "AWS", level: "intermediate" },
+        { name: "Terraform and IaC", level: "intermediate" }
       ]
     }
   ];
