@@ -15,32 +15,32 @@ const Skills = () => {
     {
       title: "Data Science",
       skills: [
-        { name: "Data Wrangling", level: "expert" },
         { name: "Data Visualization", level: "expert" },
+        { name: "Data Wrangling", level: "advanced" },
         { name: "Hypothesis Testing", level: "advanced" },
         { name: "Statistical Analysis", level: "advanced" },
-        { name: "SQL Databases", level: "intermediate" }
+        { name: "Databases", level: "advanced" }
       ]
     },
     {
       title: "Cloud Computing",
       skills: [
-        { name: "Google Cloud", level: "expert" },
-        { name: "AWS", level: "advanced" },
-        { name: "Serverless", level: "advanced" },
-        { name: "Event-Driven Architecture", level: "advanced" },
-        { name: "IaaC/Terraform", level: "intermediate" }
+        { name: "Google Cloud", level: "advanced" },
+        { name: "Docker and Containerization", level: "advanced" },
+        { name: "Microservices Architecture", level: "advanced" },
+        { name: "Terraform and IaC", level: "advanced" },
+        { name: "AWS", level: "intermediate" }
       ]
     }
   ];
 
-  const getLevelDots = (level) => {
-    const dots = {
-      expert: 5,
-      advanced: 4,
-      intermediate: 3
+  const getLevelPercentage = (level) => {
+    const percentages = {
+      expert: 100,
+      advanced: 80,
+      intermediate: 60
     };
-    return Array(dots[level]).fill('●').join(' ');
+    return percentages[level];
   };
 
   return (
@@ -49,13 +49,21 @@ const Skills = () => {
         <h2 className="section-title">Skills & Expertise</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillCategories.map((category, index) => (
-            <div key={index} className="card">
-              <h3 className="text-xl font-semibold mb-6">{category.title}</h3>
+            <div key={index} className="card p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="text-xl font-semibold mb-6 text-primary">{category.title}</h3>
               <div className="space-y-4">
                 {category.skills.map((skill, skillIndex) => (
-                  <div key={skillIndex} className="flex justify-between items-center">
-                    <span className="text-gray-700">{skill.name}</span>
-                    <span className="text-primary tracking-wider">{getLevelDots(skill.level)}</span>
+                  <div key={skillIndex} className="space-y-2">
+                    <div className="flex justify-between items-center">
+                      <span className="text-gray-700 font-medium">{skill.name}</span>
+                      <span className="text-sm text-gray-500 capitalize">{skill.level}</span>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2">
+                      <div 
+                        className="bg-primary h-2 rounded-full transition-all duration-500 ease-out"
+                        style={{ width: `${getLevelPercentage(skill.level)}%` }}
+                      ></div>
+                    </div>
                   </div>
                 ))}
               </div>

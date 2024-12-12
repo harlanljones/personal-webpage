@@ -4,28 +4,20 @@ import { Github, ExternalLink } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "Jupyter Notebook Collection",
-      description: "A variety of Jupyter Notebooks showcasing my work either for school or personal use. Continually updated.",
-      tags: ["Python", "Machine Learning", "Data Science", "Data Analysis"],
-      github: "https://github.com/yourusername/project1",
-      demo: "https://project1.demo.com",
-      image: "/api/placeholder/600/400"
-    },
-    {
-      title: "Orchestrating AI Applications on the Cloud",
+      title: "Cynthus: Orchestrating AI Applications on the Cloud",
       description: "A CLI capable of deploying AI applications on the cloud without the hassle of managing infrastructure. To be completed by December 2024.",
-      tags: ["Cloud", "Serverless", "Event-Driven", "Google Cloud"],
+      tags: ["Cloud Computing", "Serverless, Event-Driven Architecture", "Docker and Containerization", "Terraform, Ansible, and Cloud-Init", "Google Cloud Platform"],
       github: "https://github.com/EC528-Fall-2024/orchestrating-ai-app-cloud",
-      demo: "https://project2.demo.com",
-      image: "/api/placeholder/600/400"
+      demo: "https://drive.google.com/file/d/13fSNSEtQF0qnoiahnbd-I3b9YrVk6Zgy/view?usp=sharing",
+      image: "/images/cynthus.png"
     },
     {
       title: "Financial News Engine",
       description: "An open-source financial news aggregator and search engine for my ECE capstone project. To be completed by May 2025.",
-      tags: ["Python", "Full Stack", "NLP", "Recommenders"],
+      tags: ["Search Engine", "Full Stack", "NLP", "Data Science", "Vector Databases", "Recommendation Engines"],
       github: "https://github.com/rohankumar-1/search-engine",
-      demo: "https://project3.demo.com",
-      image: "/api/placeholder/600/400"
+      demo: "https://drive.google.com/file/d/1G8iIDGvsWVDQE3o4o-Mgq4T80k2MH-Z4/view?usp=sharing",
+      image: "/images/financialnewsengine.png"
     }
   ];
 
@@ -33,16 +25,16 @@ const Projects = () => {
     <section id="projects" className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="section-title">Featured Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <div key={index} className="card group">
-              <div className="relative overflow-hidden rounded-lg mb-4">
+            <div key={index} className="card">
+              <div className="relative group mb-4">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-48 object-cover rounded-lg"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center space-x-4">
+                <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center space-x-4 rounded-lg">
                   <a
                     href={project.github}
                     target="_blank"
