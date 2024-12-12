@@ -12,7 +12,8 @@ const MainLayout = ({ children }) => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('animate-fade-in', 'animate-slide-up');
+          entry.target.classList.remove('opacity-0');
+          entry.target.classList.add('opacity-100', 'transition-opacity', 'duration-1000');
           observer.unobserve(entry.target);
         }
       });
