@@ -4,8 +4,8 @@ import { Github, ExternalLink } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "Cynthus: Orchestrating AI Applications on the Cloud",
-      description: "A CLI capable of deploying AI applications on the cloud without the hassle of managing infrastructure.",
+      title: "Cynthus: Orchestrating AI Applications Deployments on the Cloud",
+      description: "A CLI capable of deploying AI applications on the cloud without the hassle of setting up infrastructure.",
       tags: ["Cloud Computing", "Serverless, Event-Driven Architecture", "Docker and Containerization", "Terraform, Ansible, and Cloud-Init", "Google Cloud Platform"],
       github: "https://github.com/EC528-Fall-2024/orchestrating-ai-app-cloud",
       demo: "https://drive.google.com/file/d/13fSNSEtQF0qnoiahnbd-I3b9YrVk6Zgy/view?usp=sharing",
