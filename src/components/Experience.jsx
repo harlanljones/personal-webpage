@@ -41,19 +41,14 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="py-24 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-bold text-center mb-16">
-          Experience & Education
-          <div className="h-1 w-20 bg-primary mx-auto mt-4 rounded-full"></div>
-        </h2>
-        
-        {/* Timeline - now with grid layout */}
+    <section id="experience" className="section section-light">
+      <div className="section-container">
+        <h2 className="section-title">Experience & Education</h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {experiences.map((exp, index) => (
             <div 
               key={index} 
-              className="relative h-full p-8 rounded-xl bg-white shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100"
+              className="card"
             >
               {/* Header with icon and duration */}
               <div className="flex items-start gap-4 mb-6">

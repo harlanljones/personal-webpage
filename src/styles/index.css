@@ -31,8 +31,24 @@
     @apply absolute bottom-0 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-primary rounded-full mt-4;
   }
   
+  .section {
+    @apply py-24;
+  }
+
+  .section-light {
+    @apply bg-white;
+  }
+
+  .section-dark {
+    @apply bg-gray-50;
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
   .card {
-    @apply bg-white/80 backdrop-blur-sm rounded-xl shadow-lg p-6 transition-all duration-300 hover:shadow-xl hover:scale-102 border border-gray-100/50;
+    @apply bg-white rounded-xl shadow-md p-6 transition-all duration-300 hover:shadow-lg border border-gray-100;
   }
 
   .glass-effect {

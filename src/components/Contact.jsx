@@ -3,9 +3,9 @@ import { Mail, Github, Linkedin, Calendar, Phone, MapPin, Users, Code, Briefcase
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-16 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-center mb-12">Get In Touch</h2>
+    <section id="contact" className="section section-dark">
+      <div className="section-container">
+        <h2 className="section-title">Get In Touch</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Contact Info */}
           <div className="space-y-6">

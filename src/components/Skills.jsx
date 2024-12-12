@@ -44,12 +44,12 @@ const Skills = () => {
   };
 
   return (
-    <section id="skills" className="py-16 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="skills" className="section section-dark">
+      <div className="section-container">
         <h2 className="section-title">Skills & Expertise</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillCategories.map((category, index) => (
-            <div key={index} className="card p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <div key={index} className="card">
               <h3 className="text-xl font-semibold mb-6 text-primary">{category.title}</h3>
               <div className="space-y-4">
                 {category.skills.map((skill, skillIndex) => (
