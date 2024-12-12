@@ -5,7 +5,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Cynthus: Orchestrating AI Applications on the Cloud",
-      description: "A CLI capable of deploying AI applications on the cloud without the hassle of managing infrastructure. To be completed by December 2024.",
+      description: "A CLI capable of deploying AI applications on the cloud without the hassle of managing infrastructure.",
       tags: ["Cloud Computing", "Serverless, Event-Driven Architecture", "Docker and Containerization", "Terraform, Ansible, and Cloud-Init", "Google Cloud Platform"],
       github: "https://github.com/EC528-Fall-2024/orchestrating-ai-app-cloud",
       demo: "https://drive.google.com/file/d/13fSNSEtQF0qnoiahnbd-I3b9YrVk6Zgy/view?usp=sharing",
@@ -13,7 +13,7 @@ const Projects = () => {
     },
     {
       title: "Financial News Engine",
-      description: "An open-source financial news aggregator and search engine for my ECE capstone project. To be completed by May 2025.",
+      description: "An open-source financial news aggregator and search engine for my ECE capstone project. In progress, expected to be completed by April 2025.",
       tags: ["Search Engine", "Full Stack", "NLP", "Data Science", "Vector Databases", "Recommendation Engines"],
       github: "https://github.com/rohankumar-1/search-engine",
       demo: "https://drive.google.com/file/d/1G8iIDGvsWVDQE3o4o-Mgq4T80k2MH-Z4/view?usp=sharing",
