@@ -16,8 +16,8 @@ const About = () => {
           </p>
           <div className="mt-8 flex justify-center space-x-4">
             <a
-              href="/public/resume.pdf"
-              download
+              href="/resume.pdf"
+              download="Harlan_Jones_Resume.pdf"
               className="inline-flex items-center px-6 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 transition-colors"
             >
               Download Resume
