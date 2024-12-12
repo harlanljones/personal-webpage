@@ -14,7 +14,7 @@ const Skills = () => {
       ]
     },
     {
-      title: "Machine Learning, AI, & Data Science",
+      title: "Data Science",
       skills: [
         { name: "Machine Learning", level: "advanced" },
         { name: "Deep Learning", level: "advanced" },
