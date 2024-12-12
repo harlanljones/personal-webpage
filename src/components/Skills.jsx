@@ -3,33 +3,36 @@ import React from 'react';
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Machine Learning",
+      title: "Software Engineering",
       skills: [
         { name: "Python", level: "expert" },
-        { name: "Deep Learning", level: "advanced" },
-        { name: "Natural Language Processing", level: "advanced" },
-        { name: "Linear Algebra", level: "advanced" },
-        { name: "Reinforcement Learning", level: "advanced" }
+        { name: "Full Stack Development", level: "advanced" },
+        { name: "Architecture Design", level: "advanced" },
+        { name: "RESTful APIs", level: "advanced" },
+        { name: "Agile Development", level: "advanced" },
+        { name: "Git Version Control", level: "advanced" }
       ]
     },
     {
-      title: "Data Science",
+      title: "Machine Learning, AI, & Data Science",
       skills: [
-        { name: "Data Visualization", level: "expert" },
-        { name: "Statistical Analysis", level: "advanced" },
-        { name: "Hypothesis Testing", level: "advanced" },
-        { name: "Data Wrangling", level: "advanced" },
-        { name: "Databases", level: "intermediate" }
-      ]
+        { name: "Machine Learning", level: "advanced" },
+        { name: "Deep Learning", level: "advanced" },
+        { name: "Natural Language Processing", level: "advanced" },
+        { name: "Recommendation Systems", level: "advanced" },
+        { name: "Data Preprocessing", level: "advanced" },
+        { name: "Data Visualization", level: "advanced" }
+      ] 
     },
     {
       title: "Cloud Computing",
       skills: [
-        { name: "Google Cloud", level: "advanced" },
-        { name: "Docker and Containerization", level: "advanced" },
-        { name: "Microservices Architecture", level: "advanced" },
-        { name: "AWS", level: "intermediate" },
-        { name: "Terraform and IaC", level: "intermediate" }
+        { name: "Google Cloud Platform", level: "advanced" },
+        { name: "Serverless & Event-Driven Systems", level: "advanced" },
+        { name: "Terraform & Infrastructure as Code", level: "advanced" },
+        { name: "Docker & Containerization", level: "intermediate" },
+        { name: "Cloud-Init & Ansible", level: "intermediate" },
+        { name: "Amazon Web Services", level: "intermediate" }
       ]
     }
   ];

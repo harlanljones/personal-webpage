@@ -29,6 +29,13 @@ const Experience = () => {
       details: [
         'Researched recommendation systems for Waiter.com using machine learning'
       ],
+      concepts: [
+        'Content-Based Filtering',
+        'Natural Language Processing',
+        'Data Preprocessing',
+        'Model Evaluation',
+        'Feature Engineering'
+      ],
       technologies: [
         'Python',
         'TensorFlow',
@@ -48,7 +55,7 @@ const Experience = () => {
           {experiences.map((exp, index) => (
             <div 
               key={index} 
-              className="card"
+              className="card h-full"
             >
               {/* Header with icon and duration */}
               <div className="flex items-start gap-4 mb-6">
@@ -69,12 +76,29 @@ const Experience = () => {
               </div>
 
               {/* Details section */}
-              <ul className="list-disc list-outside ml-4 text-gray-600 space-y-2 mb-6">
+              <div className="text-gray-600 mb-6">
                 {exp.details.map((detail, idx) => (
-                  <li key={idx} className="leading-relaxed">{detail}</li>
+                  <p key={idx} className="leading-relaxed">{detail}</p>
                 ))}
-              </ul>
+              </div>
               
+              {/* New Concepts section for work experience */}
+              {exp.concepts && (
+                <div className="mt-4">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-3">Concepts & Principles</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {exp.concepts.map((concept, idx) => (
+                      <span
+                        key={idx}
+                        className="px-4 py-1.5 bg-primary/10 text-primary rounded-full text-sm font-medium hover:bg-primary/20 transition-colors duration-200"
+                      >
+                        {concept}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {/* Technologies section */}
               {exp.technologies && (
                 <div className="mt-auto">
