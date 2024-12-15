@@ -31,7 +31,7 @@ const Skills = () => {
         { name: "Serverless Computing", level: "advanced" },
         { name: "Amazon Web Services", level: "intermediate" },
         { name: "Docker & Containerization", level: "intermediate" },
-        { name: "Terraform & Infrastructure as Code", level: "intermediate" },
+        { name: "Terraform & IaC", level: "intermediate" },
         { name: "Cloud-Init & Ansible", level: "intermediate" }
       ]
     }
