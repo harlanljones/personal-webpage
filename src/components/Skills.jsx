@@ -7,9 +7,9 @@ const Skills = () => {
       skills: [
         { name: "Python", level: "expert" },
         { name: "Full Stack Development", level: "advanced" },
-        { name: "Architecture Design", level: "advanced" },
         { name: "RESTful APIs", level: "advanced" },
-        { name: "Agile Development", level: "advanced" },
+        { name: "Microservices Architecture", level: "advanced" },
+        { name: "Agile & Scrum Methodologies", level: "advanced" },
         { name: "Git Version Control", level: "advanced" }
       ]
     },
@@ -18,21 +18,21 @@ const Skills = () => {
       skills: [
         { name: "Machine Learning", level: "advanced" },
         { name: "Deep Learning", level: "advanced" },
+        { name: "Predictive Modeling", level: "advanced"},
+        { name: "Data Visualization", level: "advanced" },
         { name: "Natural Language Processing", level: "advanced" },
-        { name: "Recommendation Systems", level: "advanced" },
-        { name: "Data Preprocessing", level: "advanced" },
-        { name: "Data Visualization", level: "advanced" }
+        { name: "Recommendation Systems", level: "advanced" }
       ] 
     },
     {
       title: "Cloud Computing",
       skills: [
         { name: "Google Cloud Platform", level: "advanced" },
-        { name: "Serverless & Event-Driven Systems", level: "advanced" },
-        { name: "Terraform & Infrastructure as Code", level: "advanced" },
+        { name: "Serverless Computing", level: "advanced" },
+        { name: "Amazon Web Services", level: "intermediate" },
         { name: "Docker & Containerization", level: "intermediate" },
-        { name: "Cloud-Init & Ansible", level: "intermediate" },
-        { name: "Amazon Web Services", level: "intermediate" }
+        { name: "Terraform & Infrastructure as Code", level: "intermediate" },
+        { name: "Cloud-Init & Ansible", level: "intermediate" }
       ]
     }
   ];

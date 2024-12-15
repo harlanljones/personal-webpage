@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: "Cynthus: Orchestrating AI Applications Deployments on the Cloud",
       description: "A CLI capable of deploying AI applications on the cloud without the hassle of setting up infrastructure. Completed for my Cloud Computing course at BU with mentorship provided by Intel.",
-      tags: ["Cloud Computing", "Serverless, Event-Driven Architecture", "Docker and Containerization", "Terraform, Ansible, and Cloud-Init", "Google Cloud Platform"],
+      tags: ["Cloud Computing", "GCP", "Serverless", "Event-Driven Systems", "Python", "Docker", "Terraform", "Ansible", "Cloud-Init"],
       github: "https://github.com/EC528-Fall-2024/orchestrating-ai-app-cloud",
       demo: "https://drive.google.com/file/d/13fSNSEtQF0qnoiahnbd-I3b9YrVk6Zgy/view?usp=sharing",
       image: "/images/cynthus.png"
@@ -14,7 +14,7 @@ const Projects = () => {
     {
       title: "Financial News Engine",
       description: "An open-source financial news aggregator and search engine for my BU ECE capstone project. In progress, expected to be completed by April 2025.",
-      tags: ["Search Engine", "Full Stack", "NLP", "Data Science", "Vector Databases", "Recommendation Engines"],
+      tags: ["Full Stack", "NLP", "Search Engine", "Vector Databases", "Python", "JavaScript", "React", "Recommendation Systems"],
       github: "https://github.com/rohankumar-1/search-engine",
       demo: "https://drive.google.com/file/d/1G8iIDGvsWVDQE3o4o-Mgq4T80k2MH-Z4/view?usp=sharing",
       image: "/images/financialnewsengine.png"

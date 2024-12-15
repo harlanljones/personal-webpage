@@ -32,9 +32,9 @@ const Experience = () => {
       concepts: [
         'Content-Based Filtering',
         'Natural Language Processing',
-        'Data Preprocessing',
-        'Model Evaluation',
-        'Feature Engineering'
+        'Data Wrangling',
+        'Feature Engineering',
+        'Model Evaluation'
       ],
       technologies: [
         'Python',
