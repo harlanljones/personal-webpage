@@ -16,6 +16,7 @@ const Projects = () => {
       description: "Enhancing Pneumonia Detection with GAN-Generated Synthetic Chest X-rays using DCGAN, CGAN, and WGAN-GP architectures with PyTorch.",
       tags: ["Deep Learning", "GANs", "PyTorch", "Medical Imaging", "Computer Vision", "Python"],
       github: "https://github.com/harlanljones/gan-enhanced-pneumonia-classifier",
+      demo: "https://docs.google.com/document/d/14gU2VlbEI5JgSex5REkLTrfnxDeXBRwVOO6cRN6Er1I/edit?usp=sharing",
       image: "/images/gradcam.png"
     }
   ];
