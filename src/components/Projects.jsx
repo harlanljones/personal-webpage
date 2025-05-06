@@ -12,12 +12,11 @@ const Projects = () => {
       image: "/images/cynthus.png"
     },
     {
-      title: "Financial News Engine",
-      description: "An open-source financial news aggregator and search engine for my BU ECE capstone project. In progress, expected to be completed by April 2025.",
-      tags: ["Full Stack", "NLP", "Search Engine", "Vector Databases", "Python", "JavaScript", "React", "Recommendation Systems"],
-      github: "https://github.com/rohankumar-1/search-engine",
-      demo: "https://drive.google.com/file/d/1G8iIDGvsWVDQE3o4o-Mgq4T80k2MH-Z4/view?usp=sharing",
-      image: "/images/financialnewsengine.png"
+      title: "GAN-Enhanced Pneumonia Classifier",
+      description: "Enhancing Pneumonia Detection with GAN-Generated Synthetic Chest X-rays using DCGAN, CGAN, and WGAN-GP architectures with PyTorch.",
+      tags: ["Deep Learning", "GANs", "PyTorch", "Medical Imaging", "Computer Vision", "Python"],
+      github: "https://github.com/harlanljones/gan-enhanced-pneumonia-classifier",
+      image: "/images/cv_comparison.png"
     }
   ];
 
