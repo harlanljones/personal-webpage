@@ -1,20 +1,25 @@
-# Created by https://www.toptal.com/developers/gitignore/api/react
-# Edit at https://www.toptal.com/developers/gitignore?templates=react
+# dependencies
+/node_modules
 
-### react ###
-.DS_*
-*.log
-logs
-**/*.backup.*
-**/*.back.*
+# next.js
+/.next/
+/out/
 
-node_modules
-bower_components
+# production
+/build
 
-*.sublime*
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
-psd
-thumb
-sketch
+# env files
+.env*
 
-# End of https://www.toptal.com/developers/gitignore/api/react
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
