@@ -69,7 +69,7 @@ export function Footer() {
           </div>
 
           <div className="border-t pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2025 Harlan Jones. Built with passion, powered by coffee and baseball. ⚾</p>
+            <p>&copy; 2025 Harlan Jones. Built with passion, powered by coffee and competition.</p>
           </div>
         </div>
       </div>

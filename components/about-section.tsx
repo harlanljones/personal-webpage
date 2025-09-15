@@ -24,7 +24,7 @@ export function AboutSection() {
                 <Card>
                   <CardContent className="p-4 text-center">
                     <div className="text-2xl font-bold text-primary">15+</div>
-                    <div className="text-sm text-muted-foreground">Years of Baseball Obsession</div>
+                    <div className="text-sm text-muted-foreground">Years of Sports Obsession</div>
                   </CardContent>
                 </Card>
                 <Card>
@@ -41,14 +41,14 @@ export function AboutSection() {
                 I grew up learning about the game of baseball by calling games from behind the plate.
                 Now, I call functions to accomplish the same goal. While pursuing a B.S. in Computer 
                 Engineering, I have become deeply engrossed in the past, present, and future of both
-                technology and the Boston Red Sox.
+                technology and sports analytics.
               </p>
 
               <p className="text-lg leading-relaxed text-justify">
-                When I'm not crafting solutions with Python, React, or cloud services, you'll find me 
-                ingesting information by watching games, reading articles, or playing Out of the Park 
-                Baseball. I am always looking for new ways to expand my knowledge and the variety of
-                perspectives teach me to look at things holistically, valuing analytics, individuals,
+                When I'm not developing apps locally or on the cloud, you'll find me 
+                ingesting information by watching games, reading articles, or listening to podcasts. 
+                I am always looking for new ways to expand my knowledge and the variety of
+                perspectives teach me to look at things holistically, valuing the people, the numbers,
                 and everything in between.
               </p>
             </div>
