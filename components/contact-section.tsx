@@ -90,7 +90,6 @@ export function ContactSection() {
                 <Button type="submit" className="w-full" size="lg" disabled={status === 'Sending...'}>
                   {status === 'Sending...' ? 'Sending...' : 'Send Message'}
                 </Button>
-                {status && <p className="text-center text-sm mt-4">{status}</p>}
               </form>
             </CardContent>
           </Card>
