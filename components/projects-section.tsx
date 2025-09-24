@@ -4,6 +4,13 @@ import { Badge } from "@/components/ui/badge"
 
 const projects = [
   {
+    title: "Lineup Construction Theory",
+    description: "WIP: Analyzing Modern Baseball Lineups from a Boston Perspective",
+    image: "/lineups.png",
+    technologies: ["Python", "Jupyter Notebooks", "Data Science", "Statistics"],
+    liveUrl: "https://github.com/harlanljones/lineup-theory",
+  },
+  {
     title: "GAN-Enhanced Pneumonia Classifier",
     description: "Enhancing Pneumonia Detection with GAN-Generated Synthetic Chest X-rays",
     image: "/gradcam.png",
@@ -23,13 +30,6 @@ const projects = [
     image: "/cynthus.png",
     technologies: ["Cloud Computing", "Python", "GCP", "Containers", "Agile Development"],
     liveUrl: "https://github.com/EC528-Fall-2024/orchestrating-ai-app-cloud",
-  },
-  {
-    title: "Coming Soon",
-    description: "",
-    image: "",
-    technologies: [],
-    liveUrl: "",
   },
 ]
 
