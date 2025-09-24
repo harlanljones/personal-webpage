@@ -10,11 +10,20 @@ export function HeroSection() {
     }
   }
   
-  const scrollToProjects = () => {
-    const projectsSection = document.getElementById("projects")
-    if (projectsSection) {
-      projectsSection.scrollIntoView({ behavior: "smooth" })
-    }
+  const downloadResume = () => {
+    const today = new Date();
+    const yyyy = today.getFullYear();
+    const mm = String(today.getMonth() + 1).padStart(2, '0');
+    const dd = String(today.getDate()).padStart(2, '0');
+    const formattedDate = `${yyyy}-${mm}-${dd}`;
+
+    const link = document.createElement("a");
+    link.href = "/resume.pdf";
+    link.download = `Harlan_Jones_Resume_${formattedDate}.pdf`;
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   }
 
   return (
@@ -27,7 +36,7 @@ export function HeroSection() {
         <div className="bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance text-white drop-shadow-2xl leading-tight">
             Developing{" "}
-            <span className="text-primary-foreground bg-primary px-2 py-1 rounded shadow-lg whitespace-nowrap">Green Monster</span>
+            <span className="text-primary-foreground bg-primary px-2 py-1 rounded shadow-lg">Green Monster</span>
             Apps
           </h1>
           <p className="text-xl md:text-2xl text-white mb-8 text-pretty drop-shadow-xl font-medium">
@@ -35,20 +44,20 @@ export function HeroSection() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
-              onClick={scrollToContact}
+              onClick={downloadResume}
+              variant="outline"
               size="lg"
               className="text-lg px-8 bg-primary hover:bg-primary/90 green-monster-shadow text-primary-foreground font-semibold"
             >
-              Step Up to the Plate
+              View the Highlights
             </Button>
-
+            
             <Button
-              onClick={scrollToProjects}
-              variant="outline"
+              onClick={scrollToContact}
               size="lg"
               className="text-lg px-8 border-white border-2 text-white hover:bg-white hover:text-foreground bg-black/30 backdrop-blur-sm font-semibold"
             >
-              View the Highlights
+              Step Up to the Plate
             </Button>
           </div>
         </div>

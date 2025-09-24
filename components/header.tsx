@@ -54,9 +54,6 @@ export function Header() {
           <a href="#projects" className="text-sm font-medium hover:text-secondary transition-colors">
             Projects
           </a>
-          <a href="#blog" className="text-sm font-medium hover:text-secondary transition-colors">
-            Blog
-          </a>
           <a href="#contact" className="text-sm font-medium hover:text-secondary transition-colors">
             Contact
           </a>
@@ -99,9 +96,6 @@ export function Header() {
               </a>
               <a href="#projects" className="block px-4 py-2 text-sm hover:bg-accent transition-colors" onClick={() => setIsOpen(false)}>
                 Projects
-              </a>
-              <a href="#blog" className="block px-4 py-2 text-sm hover:bg-accent transition-colors" onClick={() => setIsOpen(false)}>
-                Blog
               </a>
               <a href="#contact" className="block px-4 py-2 text-sm hover:bg-accent transition-colors" onClick={() => setIsOpen(false)}>
                 Contact
