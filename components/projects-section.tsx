@@ -11,18 +11,18 @@ const projects = [
     liveUrl: "https://github.com/harlanljones/lineup-theory",
   },
   {
-    title: "GAN-Enhanced Pneumonia Classifier",
-    description: "Enhancing Pneumonia Detection with GAN-Generated Synthetic Chest X-rays",
-    image: "/gradcam.png",
-    technologies: ["Deep Learning", "Python", "PyTorch", "Data Engineering"],
-    liveUrl: "https://github.com/harlanljones/gan-enhanced-pneumonia-classifier",
-  },
-  {
     title: "Personal Webpage",
     description: "You are here!",
     image: "/nextjstailwind.jpg",
     technologies: ["React", "TypeScript", "NextJS", "TailwindCSS"],
     liveUrl: "https://github.com/harlanljones/personal-webpage",
+  },
+  {
+    title: "GAN-Enhanced Pneumonia Classifier",
+    description: "Enhancing Pneumonia Detection with GAN-Generated Synthetic Chest X-rays",
+    image: "/gradcam.png",
+    technologies: ["Deep Learning", "Python", "PyTorch", "Data Engineering"],
+    liveUrl: "https://github.com/harlanljones/gan-enhanced-pneumonia-classifier",
   },
   {
     title: "Cynthus",
